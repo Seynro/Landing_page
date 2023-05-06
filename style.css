@@ -1,0 +1,224 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+h2 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Navigation bar styles */
+nav {
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px #888888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+/* Hero image styles */
+.hero-image {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-text h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 32px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.hero-text button {
+    font-size: 22px;
+    padding: 15px 30px;
+    background-color: #ffb900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-text button:hover {
+    background-color: #ffad33;
+}
+
+/* About us section styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* Menu section styles */
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Reservation section styles */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form label {
+    font-size: 22px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form input,
+form button,
+form textarea {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form button {
+    background-color: #ffb900;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ffad33;
+    cursor: pointer;
+}
+
+/* Contact section styles */
+.comments-section {
+    background-color: #f2f2f2;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.comments-section h3 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.comments-section ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.comments-section li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px #888888;
+}
+
+.comments-section li:before {
+    content: "“";
+    font-size: 40px;
+    margin-right: 5px;
+    color: #ffb900;
+}
+
+.comments-section li:after {
+    content: "”";
+    font-size: 40px;
+    margin-left: 5px;
+    color: #ffb900;
+}
